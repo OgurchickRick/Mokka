@@ -12,8 +12,8 @@ class DemoApplicationTests {
 	@Test
 	void test() {
 		UserRequestModel user = UserRequestModel.builder()
-				.login("")
-				.password("")
+				.login("login")
+				.password("password")
 				.build();
 
 
